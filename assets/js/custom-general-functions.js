@@ -101,6 +101,8 @@ $( document ).ready(function() {
         }
     });
 
+
+
     _a = Snap("#icon-assessment");
     _a.select('g:nth-child(1) circle').animate({ stroke: '#fff' }, _speed);
     _a.select('g:nth-child(2)').animate({ fill: '#fff', opacity: 0 }, _speed);
@@ -160,6 +162,10 @@ $( document ).ready(function() {
         _cs.select('g:nth-child(2)').animate({ fill: '#fff', opacity: 0 }, _speed);
         _cs.select('g:nth-child(3)').animate({ fill: '#fff', opacity: 1 }, _speed);
     });
+
+
+
+
 
     _e = Snap("#btn-see-case-studies");
     $(".btn-see-case").mouseover(function(event) {
