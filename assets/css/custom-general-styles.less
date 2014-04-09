@@ -6,8 +6,18 @@
   url('../fonts/avenir-light.ttf') format('truetype'),
   url('../fonts/avenir-light.svg#AvenirLTStd35Light') format('svg');
 }
+.transition (@transition) {
+  -webkit-transition: @transition;
+  -moz-transition:    @transition;
+  -ms-transition:     @transition;
+  -o-transition:      @transition;
+}
 a{
   cursor: pointer;
+}
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .btn-back{
   display: none;
@@ -25,13 +35,44 @@ a{
   }
 }
 .carousel{
+/*  background-image: url('../images/landing-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;*/
   margin-bottom: 0;
   .carousel-inner{
-    .item{
+    height: 100%;
+    width: 100%;
+    .noise-image{
+      background: transparent url('../images/static_animated.gif') repeat;
+      filter: alpha(opacity=6);
+      -ms-filter: "alpha(opacity=6)";
       height: 100%;
-      .container{
-        .carousel-caption{
-          bottom: 40%;
+      left: 0;
+      opacity: .06;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+    img{
+      height: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 0;
+    }
+    .container{
+      .carousel-caption{
+        bottom: 40%;
+        white-space: nowrap;
+        p{
+          font-size: 60px;
+        }
+        span{
+          color: #F70;
+          &.emphasis{
+            color: #fff;
+            font-size: 80px;
+          }
         }
       }
     }
@@ -72,7 +113,7 @@ a{
           float: left;
           margin: 5% 0 0 3%;
           padding: 0 0 0 30px;
-          width: 40%;
+          width: 36%;
         }
       }
       .tab-content{
@@ -263,6 +304,7 @@ a{
       &.panel-default{
         border: 0;
         box-shadow: 0 0 0;
+        margin-top: 0;
         .panel-heading{
           background-color: transparent;
           border: 0;
@@ -272,7 +314,7 @@ a{
               background-color: #D3D3D0;
               color: #FF7700;
               display: inline-block;
-              padding: 10px;
+              padding: 12px 10px 7px 11px;
               width: 100%;
               &:before {
                 content: '>';
@@ -286,6 +328,10 @@ a{
               &.collapsed{
                 background-color: transparent;
                 color: #000;
+                &:hover{
+                  background-color: #FF7700;
+                  color: #fff;
+                }
               }
             }
           }
@@ -295,6 +341,7 @@ a{
         border: 0;
         border-bottom: 2px solid #D3D3D0;
         padding: 20px 10px 50px;
+        margin-bottom: 5px;
         a{
           background-color: transparent;
           border: 1px solid #FF7700;
@@ -306,6 +353,7 @@ a{
           margin: 0 auto;
           text-align: center;
           width: 80px;
+          .transition(all 200ms cubic-bezier(0.42, 0, 0.58, 1));
           &:hover{
             background-color: #FF7700;
             color: #fff;
@@ -318,14 +366,16 @@ a{
 }
 footer{
   background-color: #3E3F33;
+  color: #fff;
   float: left;
   height: auto;
-  padding: 40px 8% 60px;
+  padding: 40px 15% 60px;
   width: 100%;
   a{
     color: #ff7700;
   }
   address{
+    color: #fff;
     float: left;
     font-family: 'AvenirLTStd35Light';
     width: 50%;
@@ -364,9 +414,9 @@ footer{
     li{
       float: left;
       max-height: 110px;
-      margin: 0 11% 0 0;
+      margin: 0 5% 0 0;
       padding: 0;
-      width: 22%;
+      width: 20%;
       a{
         figcaption{
           display: none;
@@ -375,32 +425,7 @@ footer{
     }
   }
 }
-.ilustration{
-  background-color: #DDDBD5;
-  article{
-    border-bottom: 0;
-    height: 80%;
-    width: 80%;
-    #logo-educational{
-      height: 33%;
-      left: 0;
-      margin: 0 0 0 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 2;
-    }
-    #ilustration-educational{
-      height: 80%;
-      margin: 0;
-      position: absolute;
-      right: 0;
-      top: 25%;
-      width: 100%;
-      z-index: 1;
-    }
-  }
-}
+
 #portafolio{
   .scene{
     nav{
@@ -544,6 +569,7 @@ footer{
           .nav{
             li{
               background-color: #6C6B60;
+              .transition(all 200ms cubic-bezier(0.42, 0, 0.58, 1));
               a{
                 padding: 25px 25px 20px;
               }
@@ -552,6 +578,10 @@ footer{
                 a{
                   background-color: #46483E;
                 }
+              }
+              &:hover{
+                background-color: #46483E;
+
               }
             }
             &.navbar-nav{
@@ -567,11 +597,40 @@ footer{
     }
   }
 }
+#services{
+  .ilustration{
+    background-color: #DDDBD5;
+    article{
+      border-bottom: 0;
+      height: 80%;
+      width: 80%;
+      #logo-educational{
+        height: 33%;
+        left: 0;
+        margin: 0 0 0 0;
+        position: absolute;
+        top: 0;
+        width: 50%;
+        z-index: 2;
+      }
+      #ilustration-educational{
+        height: 100%;
+        margin: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 88%;
+        z-index: 1;
+      }
+    }
+  }
+}
 .scene{
   float: left;
   overflow: hidden;
   position: relative;
   width: 100%;
+  z-index: 1;
   .caption{
     bottom: 0;
     height: 50%;
@@ -597,6 +656,7 @@ footer{
           margin: 0 2% 0;
           width: 21%;
           svg{
+            max-height: 150px;
             width: 100%;
           }
           figcaption{
@@ -606,4 +666,65 @@ footer{
       }
     }
   }
+}
+.slick-carousel-wrapper{
+  .slick-next, .slick-prev{
+    height: 115px;
+    width: 24px;
+    &:before{
+      color: #808083;
+      font-size: 100px;
+      font-family: "Economica";
+    }
+  }
+  .slick-next{
+    right: 5%;
+    &:before{
+      content: '>';
+    }
+  }
+  .slick-prev{
+    left: 5%;
+    &:before{
+      content: '<';
+    }
+  }
+}
+/*.circle{
+  //opacity: 1;
+}
+.shape{
+  //fill: #fff;
+  //opacity: 1;
+}
+.letters{
+  //opacity: 0;
+}*/
+
+/*.assessment{
+  pointer-events: all;
+  &:hover{
+    background-color: #f00;
+    #icon-assessment{
+      .shape{
+        color: rgb(255, 51, 153);
+        fill: #f00;
+        opacity: 1;
+      }
+    }
+  }
+}*/
+
+
+
+.assessment{
+/*  fill: #fff;
+  opacity: 0;*/
+/*  -webkit-transition: all .6s ease-out;
+  transition: all .6s ease-out;*/
+}
+
+.assessment:hover .shape{
+  fill: #f00;
+  opacity: 1;
 }

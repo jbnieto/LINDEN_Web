@@ -6,39 +6,47 @@ $( document ).ready(function() {
     $(window).resize(function() {
         resizeScene();
     });
-
     _speed = 250;
     _velocity = 1200; // Pix x Sec
 
     _easing = 'easeOutCubic';
     _duration = 750;
 
+    $('.slick-carousel-wrapper').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplaySpeed: 8000
+    });
+
     $("section nav ul li a").click(function(event){
         event.preventDefault();
-        //$( window ).unbind('scroll', scrolling);
+        $( window ).unbind('scroll', scrolling);
         $("body").animate({
             scrollTop: $( $(this).attr('dest')).offset().top
         },{
             duration: _velocity,
             easing: _easing,
             complete: function(){
-                $('.btn-back').show().css({
-                    top: $("body").scrollTop() + viewportSize.getHeight() - $('.btn-back').height() - parseInt($('.btn-back').css('marginBottom')),
-                    display: 'block',
-                    opacity: 0
-                }).animate({
-                        opacity: 1
-                    },{
-                        duration: _duration
-                    });
-                //$( window ).bind('scroll', scrolling);
+                relocateBtnBack();
+                $( window ).bind('scroll', scrolling);
             }
         });
     });
-
+    relocateBtnBack = function(){
+        $('.btn-back').stop().show().css({
+            top: $("body").scrollTop() + viewportSize.getHeight() - $('.btn-back').height() - parseInt($('.btn-back').css('marginBottom')),
+            display: 'block',
+            opacity: 0
+        }).animate({
+            opacity: 1
+        },{
+            duration: _duration
+        });
+    }
     $('.btn-back').click(function(event){
         event.preventDefault();
-        $(this).hide();
+        $(this).stop().hide();
+        $( window ).unbind('scroll', scrolling);
         $("body").animate({
             scrollTop: 0
         },{
@@ -48,26 +56,31 @@ $( document ).ready(function() {
             }
         });
     });
-
-    /*_n = 0;
-    scrolling = function(event){
-        event.preventDefault();
+    var scrollTimeout = null;
+    scrolling = function(){
+/*        $('.btn-back').stop().hide();
+        $("body").stop();
+        if (scrollTimeout) clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(function(){endScroll()},250);*/
+    };
+    $( window ).bind('scroll', scrolling);
+    endScroll = function(){
         _tmp = Math.round( $("body").scrollTop() / viewportSize.getHeight() );
-        if( (_tmp != _n) ){ // Change it!
-            _n = _tmp;
-            $( window ).unbind('scroll', scrolling);
-            $("body").stop().animate({
-                scrollTop: $('.scene:eq('+ _n +')').offset().top
-            }, 500, function(){
-                $( window ).bind('scroll', scrolling);
-            });
-        }
+        $( window ).unbind('scroll', scrolling);
+        $("body").stop().animate({
+            scrollTop: $('.scene:eq('+ _tmp +')').offset().top
+        }, 250, function(){
+            relocateBtnBack();
+            $( window ).bind('scroll', scrolling);
+        })
     }
-    $( window ).bind('scroll', scrolling);*/
 
     $('#portafolio').css({display: 'none'});
+    $('#company').css({display: 'none'});
+
 
     $('.navbar-nav li a').click(function(){
+        console.log('CLICK');
         var listItem = $(this);
         var _idx = $(".navbar-nav li a").index(listItem);
         for(i=0; i< $('.navbar-nav li').length; i++ ){
@@ -102,7 +115,7 @@ $( document ).ready(function() {
     });
 
 
-
+     /*
     _a = Snap("#icon-assessment");
     _a.select('g:nth-child(1) circle').animate({ stroke: '#fff' }, _speed);
     _a.select('g:nth-child(2)').animate({ fill: '#fff', opacity: 0 }, _speed);
@@ -225,6 +238,22 @@ $( document ).ready(function() {
         event.preventDefault();
         _sm_y.select('g:nth-child(2)').animate({ opacity: 1 }, _speed);
         _sm_y.select('g:nth-child(3)').animate({ opacity: 0 }, _speed);
-    });
+    });*/
+
+
+    /*var speed = 250,
+    easing = mina.easeinout;
+
+    [].slice.call ( document.querySelectorAll( '.main-icons-section ul li a' ) ).forEach( function( el ) {
+        var s = Snap( el.querySelector( 'svg' ));
+
+        el.addEventListener( 'mouseenter', function() {
+            console.log(shape);
+        } );
+
+        el.addEventListener( 'mouseleave', function() {
+            console.log(shape);
+        } );
+    } );*/
 });
 
