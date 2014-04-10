@@ -75,8 +75,8 @@ $( document ).ready(function() {
         })
     }
 
-    $('#portafolio').css({display: 'none'});
-    $('#company').css({display: 'none'});
+/*    $('#portafolio').css({display: 'none'});
+    $('#company').css({display: 'none'});*/
 
 
     $('.navbar-nav li a').click(function(){
