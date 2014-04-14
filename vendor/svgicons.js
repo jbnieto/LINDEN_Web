@@ -56,7 +56,7 @@
         extend( this.options, options );
         this.svg = Snap( this.options.size.w, this.options.size.h );
         // this.svg.attr( 'viewBox', '0 0 64 64' );
-        this.svg.attr( 'viewBox', '0 0 '+ this.options.size.h +' '+ this.options.size.w);
+        this.svg.attr( 'viewBox', '0 0 '+ this.options.size.w +' '+ this.options.size.h);
         this.el.appendChild( this.svg.node );
         // state
         this.toggled = false;

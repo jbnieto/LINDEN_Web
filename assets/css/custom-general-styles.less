@@ -435,47 +435,44 @@ footer{
     article{
       border-bottom: 0;
       max-width: 1170px;
+      padding: 0 5%;
       width: 85%;
       img{
-        margin: -46px 0 0 10px;
-        max-width: 285px;
+        float: right;
+        margin: 0;
+        max-width: 450px;
         position: relative;
-        width: 27%;
+        width: 50%;
+      }
+      h3{
+        float: right;
+        margin: 30px 0 25px;
+        text-transform: uppercase;
+        width: 100%;
       }
       p{
-        padding: 0 5% 0 0;
+        float: left;
+        position: relative;
         width: 50%;
       }
       svg{
         width: 20%;
       }
     }
+    h2{
+      width: 85%;
+      padding: 8% 5% 0;
+      position: absolute;
+      margin: auto;
+      right: 0;
+      left: 0;
+      text-transform: uppercase;
+    }
     nav{
-      background-color: #A6A79D;
       bottom: 0;
       float: left;
       position: absolute;
       width: 100%;
-      ul{
-        margin: 0 auto;
-        max-width: 1170px;
-        width: 80%;
-        li{
-          a{
-            color: #fff;
-            border-radius: 0;
-            padding: 25px 7px;
-            margin-bottom: 0;
-            text-transform: uppercase;
-            white-space: nowrap;
-            &:hover{
-              background-color: #F70;
-              text-decoration: none;
-              .transition(all 200ms cubic-bezier(0.42, 0, 0.58, 1));
-            }
-          }
-        }
-      }
     }
   }
 }
@@ -484,16 +481,26 @@ footer{
   width: 100%;
   .home-contents{
     font-family: 'AvenirLTStd35Light';
+    h2{
+      width: 85%;
+      padding: 8% 5% 0;
+      position: absolute;
+      margin: auto;
+      right: 0;
+      left: 0;
+      text-transform: uppercase;
+    }
     article{
       border-bottom: 1px solid #999B9D;
       bottom: 0;
-      height: 60%;
+      height: 65%;
       left: 0;
-      margin: auto;
+      margin: 10% auto;
+      padding: 0 5%;
       position: absolute;
       right: 0;
       top: 0;
-      width: 60%;
+      width: 85%;
       a{
         &.btn-see-case{
           display: inherit;
@@ -510,6 +517,7 @@ footer{
             float: left;
             height: 30px;
             margin: 0;
+            position: relative;
             width: 40px;
           }
           figcaption{
@@ -530,21 +538,46 @@ footer{
         }
       }
       h2{
-        float: left;
-        margin: 50px 0 46px;
+        margin: 0;
+        padding: 0 0 20px;
+        position: relative;
+        width: 100%;
+      }
+      h3{
+        float: right;
+        margin: 30px 0 25px;
         text-transform: uppercase;
-        width: 70%;
+        width: 100%;
       }
       p{
-        float: left;
-        width: 70%;
+        float: right;
+        width: 100%;
       }
       svg{
         float: left;
         height: 27%;
         margin: 0 20px 63% -20px;
+        position: absolute;
         top: 0;
         width: 30%;
+      }
+      ul{
+        float: right;
+        width: 100%;
+        li{
+          ul{
+            width: 100%;
+          }
+        }
+        &.list{
+          float: right;
+          margin: 0;
+          padding: 0;
+          li{
+            float: left;
+            width: 50%;
+          }
+        }
       }
     }
   }
@@ -563,6 +596,7 @@ footer{
     margin-bottom: 0;
     .slick-next, .slick-prev{
       height: 115px;
+      top: 40%;
       width: 24px;
       &:before{
         color: #808083;
@@ -580,6 +614,17 @@ footer{
       left: 5%;
       &:before{
         content: '<';
+      }
+    }
+    .slick-dots{
+      position: absolute;
+      bottom: 15%;
+      li{
+        a{
+          &:before{
+            font-size: 12px;
+          }
+        }
       }
     }
   }
@@ -664,14 +709,13 @@ footer{
       max-width: 1170px;
       width: 80%;
       #logo-educational{
-        height: 33%;
-        left: 0;
-        margin: 0 0 0 0;
-        position: absolute;
-        top: 0;
-        width: 50%;
-        z-index: 2;
-      }
+         height: 33%;
+         left: 0;
+         margin: 0 0 60% 0;
+         top: 0;
+         width: 30%;
+         z-index: 2;
+       }
       #ilustration-educational{
         height: 100%;
         margin: 0;
@@ -748,12 +792,12 @@ footer{
         li{
           float: left;
           list-style: none;
-          margin: 0 2% 0;
-          width: 21%;
+          margin: 0 0 0;
+          width: 20%;
           svg{
             max-height: 150px;
             width: 100%;
-            -webkit-filter: drop-shadow(1px 1px 0px rgba(0,0,0,1));
+            -webkit-filter: drop-shadow(1px 1px 0px rgba(0,0,0,0.3));
             filter: url(shadow.svg#drop-shadow);
             -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
             filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
@@ -777,38 +821,4 @@ footer{
     width: 100%;
     z-index: 1;
   }
-}
-/*.circle{
-  //opacity: 1;
-}
-.shape{
-  //fill: #fff;
-  //opacity: 1;
-}
-.letters{
-  //opacity: 0;
-}*/
-
-/*.assessment{
-  pointer-events: all;
-  &:hover{
-    background-color: #f00;
-    #icon-assessment{
-      .shape{
-        color: rgb(255, 51, 153);
-        fill: #f00;
-        opacity: 1;
-      }
-    }
-  }
-}*/
-.assessment{
-/*  fill: #fff;
-  opacity: 0;*/
-/*  -webkit-transition: all .6s ease-out;
-  transition: all .6s ease-out;*/
-}
-.assessment:hover .shape{
-  fill: #f00;
-  opacity: 1;
 }

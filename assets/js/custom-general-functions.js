@@ -15,7 +15,8 @@ $( document ).ready(function() {
     $('.slick-carousel-wrapper').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplaySpeed: 8000
+        autoplaySpeed: 8000,
+        dots: true
     });
 
     $('.btn-apply').click(function(){
@@ -97,10 +98,18 @@ $( document ).ready(function() {
     [].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
         var svgicon = new svgIcon( el, svgIconConfig );
     } );
-    new svgIcon( document.querySelector( '.si-icons-hover .si-icon_custom_software' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
-    new svgIcon( document.querySelector( '.si-icons-hover .si-icon_assessment' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
-    new svgIcon( document.querySelector( '.si-icons-hover .si-icon_consulting' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
-    new svgIcon( document.querySelector( '.si-icons-hover .si-icon_publishing' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_custom_software' ),    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_assessment' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_consulting' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_publishing' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_big_data' ),           svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
+
+    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_assessment' ),   svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_featured' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_custom' ),       svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_educational' ),  svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_projects' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+
     new svgIcon( document.querySelector( '.si-btn_sm_fb' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
     new svgIcon( document.querySelector( '.si-btn_sm_tw' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
     new svgIcon( document.querySelector( '.si-btn_sm_yt' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
