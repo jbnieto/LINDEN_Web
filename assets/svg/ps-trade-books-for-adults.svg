@@ -1,0 +1,29 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 84.4033 27.124)"><tspan x="0" y="0" fill="#241F20" font-family="'Avenir-Light'" font-size="12">TRADE </tspan><tspan x="0" y="14.4" fill="#241F20" font-family="'Avenir-Light'" font-size="12">BOOKS </tspan><tspan x="0" y="28.8" fill="#241F20" font-family="'Avenir-Light'" font-size="12">FOR </tspan><tspan x="0" y="43.2" fill="#241F20" font-family="'Avenir-Light'" font-size="12">ADULTS</tspan></text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="14.0703" y1="70.8931" x2="37.2354" y2="52.1104">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M29.153,40.073c0.004,1.482-21.25,25.475-21.348,26.126c7.996,11.022,17.942,13.815,17.942,13.815
+             l21.52-28.253c0,0-3.275-0.131-7.153-0.086c-0.068,0.001-0.138,0.41-0.206,0.41c-1.062,0.01-2.163,0.003-3.252-0.033
+             c-0.057-0.002-0.098-0.466-0.153-0.467c-2.575-0.086-5.186-0.025-6.884-0.218C28.946,46.372,29.878,47.499,29.153,40.073z"/>
+         <g>
+             <g>
+                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M37.917,50.518V39.051c0,0-1.57-1.315-3.798-1.315
+                     s-3.798,1.169-3.798,1.169v11.613c0,0,1.57-1.133,3.798-1.133S37.917,50.518,37.917,50.518z M46.098,50.518V39.051
+                     c0,0-1.57-1.315-3.797-1.315c-2.229,0-3.798,1.169-3.798,1.169v11.613c0,0,1.57-1.133,3.798-1.133
+                     C44.527,49.385,46.098,50.518,46.098,50.518z M47.268,40.073h-0.586v11.103H39.67v0.585H36.75v-0.585h-7.012V40.073h-0.585V51.76
+                     h7.012v0.584h4.126l-0.037-0.584h7.014V40.073z"/>
+             </g>
+         </g>
+     </g>
+</svg>

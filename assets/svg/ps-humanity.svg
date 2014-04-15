@@ -1,0 +1,23 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 83.3936 48.7236)" fill="#241F20" font-family="'Avenir-Light'" font-size="12">HUMANITIES</text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <text transform="matrix(1 0 0 1 323.042 1737.043)" fill="#232020" font-family="'Avenir-Light'" font-size="12">HUMANITIES</text>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="13.9263" y1="71.4517" x2="38.6316" y2="51.4201">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M30.894,41.169c0.004,1.481-20.459,28.543-20.557,29.194c7.192,7.779,13.607,9.488,13.607,9.488
+             L44.623,45.25C44.195,44.206,31.62,48.595,30.894,41.169z"/>
+         <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M38.232,41.074c0,0-1.036-2.207-3.368-2.207
+             c-2.546,0-3.884,2.158-3.884,4.317c0,3.582,7.252,8.028,7.252,8.028s7.208-4.403,7.208-8.028c0-2.201-1.381-4.317-3.84-4.317
+             C39.139,38.867,38.232,41.074,38.232,41.074z"/>
+     </g>
+</svg>

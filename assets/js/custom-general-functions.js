@@ -24,6 +24,20 @@ $( document ).ready(function() {
         $('#modal h4').text( $(this).attr('data-title') );
     });
 
+    $('#port-projects ul li a').click(function(){
+
+        $( $(this).attr('data-target') ).modal();
+        $('.slick-track').css({
+            width: '100%',
+            height: '500px',
+            overflow: 'hidden'
+        });
+        $('.slick-slide').css({
+            width: '100%',
+            height: '100%'
+        });
+    });
+
     $("section nav ul li a").click(function(event){
         event.preventDefault();
         $( window ).unbind('scroll', scrolling);
@@ -104,11 +118,28 @@ $( document ).ready(function() {
     new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_publishing' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
     new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_big_data' ),           svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
 
-    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_assessment' ),   svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
-    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_featured' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
-    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_custom' ),       svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
-    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_educational' ),  svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
-    new svgIcon( document.querySelector( '#portafolio .si-icons-hover .si-port_projects' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .main-icons-section .si-icons-hover .si-port_assessment' ),   svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .main-icons-section .si-icons-hover .si-port_featured' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .main-icons-section .si-icons-hover .si-port_custom' ),       svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .main-icons-section .si-icons-hover .si-port_educational' ),  svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#portafolio .main-icons-section .si-icons-hover .si-port_projects' ),     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 176.785, h : 90.08 } } );
+
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_art' ),                         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_business' ),                    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_english' ),                     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_french' ),                      svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_health' ),                      svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_humanity' ),                    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_mathematics' ),                 svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_modern_and_classical' ),        svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_reading_and_language' ),        svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_reference_books' ),             svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_religion' ),                    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_science' ),                     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_social_studies' ),              svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_spanish' ),                     svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_trade_books_for_adults' ),      svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
+    new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_trade_books_for_children' ),    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
 
     new svgIcon( document.querySelector( '.si-btn_sm_fb' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
     new svgIcon( document.querySelector( '.si-btn_sm_tw' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );

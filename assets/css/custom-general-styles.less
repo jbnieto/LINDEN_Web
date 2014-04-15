@@ -435,11 +435,9 @@ footer{
     article{
       border-bottom: 0;
       max-width: 1170px;
-      padding: 0 5%;
-      width: 85%;
       img{
         float: right;
-        margin: 0;
+        margin: -44px 0 0;
         max-width: 450px;
         position: relative;
         width: 50%;
@@ -452,6 +450,7 @@ footer{
       }
       p{
         float: left;
+        padding: 0 10px 0 0;
         position: relative;
         width: 50%;
       }
@@ -460,9 +459,6 @@ footer{
       }
     }
     h2{
-      width: 85%;
-      padding: 8% 5% 0;
-      position: absolute;
       margin: auto;
       right: 0;
       left: 0;
@@ -474,6 +470,30 @@ footer{
       position: absolute;
       width: 100%;
     }
+    &#port-projects{
+      article{
+        ul{
+          list-style: none;
+          margin: 20px 0 0 0;
+          padding: 0;
+          width: 100%;
+          li{
+            float: left;
+            margin: 0 10px 0 0;
+            a{
+              span{
+                svg{
+                  height: 91px;
+                  margin: 0;
+                  position: relative;
+                  width: 170px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 .main-contents{
@@ -483,7 +503,7 @@ footer{
     font-family: 'AvenirLTStd35Light';
     h2{
       width: 85%;
-      padding: 8% 5% 0;
+      padding: 8% 10% 0;
       position: absolute;
       margin: auto;
       right: 0;
@@ -496,7 +516,7 @@ footer{
       height: 65%;
       left: 0;
       margin: 10% auto;
-      padding: 0 5%;
+      padding: 0 10%;
       position: absolute;
       right: 0;
       top: 0;
@@ -539,7 +559,7 @@ footer{
       }
       h2{
         margin: 0;
-        padding: 0 0 20px;
+        padding: 0 0 30px;
         position: relative;
         width: 100%;
       }
@@ -591,34 +611,43 @@ footer{
   .slick-carousel-wrapper{
     max-width: 1170px;
     margin: 0 auto;
+    padding: 8% 10% 0;
+    width: 85%;
   }
   .slick-carousel-wrapper, .slick-slider{
     margin-bottom: 0;
+    article{
+      padding: 0 0;
+      width: 100%;
+    }
     .slick-next, .slick-prev{
       height: 115px;
-      top: 40%;
+      top: 25%;
       width: 24px;
       &:before{
         color: #808083;
-        font-size: 100px;
+        font-size: 180px;
         font-family: "Economica";
       }
     }
     .slick-next{
-      right: 5%;
+      right: 3%;
       &:before{
         content: '>';
       }
     }
     .slick-prev{
-      left: 5%;
+      left: 3%;
       &:before{
         content: '<';
       }
     }
     .slick-dots{
+      bottom: 25%;
+      left: 0;
       position: absolute;
-      bottom: 15%;
+      right: 0;
+      width: 100%;
       li{
         a{
           &:before{
@@ -694,6 +723,93 @@ footer{
     }
   }
 }
+.modal_project{
+  .modal-content{
+    background-color: #CDCDC9;
+    border-radius: 0;
+    .modal-header{
+      border-bottom: 0;
+    }
+    .modal-body{
+      padding: 0 40px 20px;
+      .project-list {
+        background-color: #CDCDC9;
+        color: #1b1b1b;
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li{
+          border-bottom: 1px solid #fff;
+          float: left;
+          height: 90px;
+          margin: 10px 0 0;
+          width: 50%;
+          h4.project_title {
+            color: #000;
+            font-size: 14px;
+            margin: 0;
+            padding: 0 0 0 10px;
+            &:before{
+              content: '>';
+              font-family: "Economica";
+              font-size: 16px;
+              margin: -1px 0 0 -7px;
+              position: absolute;
+            }
+          }
+          p{
+            &.project_components {
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-size: 12px;
+            }
+            &.project_author{
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-size: 12px;
+            }
+            &.project_grade {
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-size: 11px;
+            }
+            &.project_publisher {
+              margin: 0;
+              padding: 0 0 0 10px;
+              font-size: 12px;
+            }
+          }
+        }
+      }
+      .slick-slide{
+        height: auto;
+      }
+      .slick-next, .slick-prev{
+        height: 115px;
+        top: 31%;
+        width: 24px;
+      }
+      .slick-next:before, .slick-prev:before{
+        color: #808083;
+        font-size: 180px;
+        font-family: "Economica";
+      }
+      .slick-next{
+        right: -22px;
+        &:before{
+          content: '>';
+        }
+      }
+      .slick-prev{
+        left: -38px;
+        &:before{
+          content: '<';
+        }
+      }
+    }
+  }
+}
 #services{
   .scale-image{
     background-attachment: fixed;
@@ -705,19 +821,17 @@ footer{
     background-color: #DDDBD5;
     article{
       border-bottom: 0;
-      height: 80%;
       max-width: 1170px;
-      width: 80%;
       #logo-educational{
          height: 33%;
          left: 0;
          margin: 0 0 60% 0;
          top: 0;
-         width: 30%;
+         width: 50%;
          z-index: 2;
        }
       #ilustration-educational{
-        height: 100%;
+        height: 85%;
         margin: 0;
         position: absolute;
         right: 0;
@@ -797,10 +911,10 @@ footer{
           svg{
             max-height: 150px;
             width: 100%;
-            -webkit-filter: drop-shadow(1px 1px 0px rgba(0,0,0,0.3));
-            filter: url(shadow.svg#drop-shadow);
-            -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
-            filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
+            //-webkit-filter: drop-shadow(1px 1px 0px rgba(0,0,0,0.3));
+            //filter: url(shadow.svg#drop-shadow);
+            //-ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
+            //filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=1, OffY=1, Color='#000')";
           }
           figcaption{
             display: none;

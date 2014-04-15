@@ -1,0 +1,31 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 82.9609 27.124)"><tspan x="0" y="0" fill="#241F20" font-family="'Avenir-Light'" font-size="12">MODERN </tspan><tspan x="0" y="14.4" fill="#241F20" font-family="'Avenir-Light'" font-size="12">AND </tspan><tspan x="0" y="28.8" fill="#241F20" font-family="'Avenir-Light'" font-size="12">CLASSICAL </tspan><tspan x="0" y="43.2" fill="#241F20" font-family="'Avenir-Light'" font-size="12">LANGUAGES</tspan></text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="10.2319" y1="69.4287" x2="41.1675" y2="52.17">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.19"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.1933"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M29.782,38.645c0.004,1.482-21.209,28.159-21.307,28.812c6.736,9.298,17.739,12.934,17.739,12.934
+             l17.19-27.94c0,0-1.512-1.822-3.232-2.931c-1.412-0.909-2.994-1.143-3.761-1.143c-0.482-1.508-0.473-1.405-0.215-3.021
+             c0.26-1.627,0.234-3.048-0.283-4.41C35.732,40.468,29.782,39.188,29.782,38.645z"/>
+         <g>
+             <g>
+                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M43.405,46.289v-7.176c0-0.71-0.574-1.286-1.285-1.286H30.875
+                     c-0.71,0-1.286,0.576-1.286,1.286v7.176c0,0.709,0.576,1.284,1.286,1.284h2.143v2.952l3.278-2.952h5.824
+                     C42.831,47.573,43.405,46.998,43.405,46.289z M45.546,40.648h-1.608c0,0,0,5.73,0,6.269c0,0.54-0.699,1.231-1.237,1.231
+                     c-0.539,0-6.29,0.031-6.29,0.031c0,0.71,0.575,1.143,1.285,1.143h2.476l3.232,2.931l-0.005-2.931h2.147
+                     c0.711,0,1.285-0.433,1.285-1.143v-6.281C46.831,41.188,46.257,40.648,45.546,40.648z"/>
+             </g>
+         </g>
+     </g>
+</svg>

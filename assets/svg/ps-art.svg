@@ -1,0 +1,24 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+	 <g>
+	     <g class="letters">
+             <text transform="matrix(1 0 0 1 84.4033 48.7236)" fill="#241F20" font-family="'Avenir-Light'" font-size="12">ART</text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.3193" y1="67.3149" x2="42.0757" y2="53.1509">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M29.864,37.991c0,0-22.907,26.652-23.005,27.304c7.939,12.392,20.225,15.542,20.225,15.542
+             l19.51-28.86c0,0-2.197,0.618-10.045-4.812C32.185,41.825,29.864,37.991,29.864,37.991z"/>
+         <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M29.864,37.616c0.298-0.333,1.662,0.482,3.219,1.854
+             c0.875,0.771,3.294,2.923,5.25,4.662l-2.161,2.195c-1.703-2.086-3.847-4.711-4.629-5.66C30.172,39,29.679,37.801,29.864,37.616z
+              M38.776,44.527c0.802,0.712,1.493,1.327,1.908,1.696l-2.56,2.494c-0.348-0.426-0.915-1.121-1.575-1.929L38.776,44.527z
+              M38.5,49.178l2.622-2.555c0.157,0.012,2.703,0.238,2.703,2.742c0,2.585,2.77,2.235,2.77,2.235s-6.603,3.277-8.089-2.423v0.006
+             L38.5,49.178z"/>
+	 </g>
+</svg>

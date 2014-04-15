@@ -1,0 +1,27 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 84.4033 27.124)"><tspan x="0" y="0" fill="#241F20" font-family="'Avenir-Light'" font-size="12">READING </tspan><tspan x="0" y="14.4" fill="#241F20" font-family="'Avenir-Light'" font-size="12">AND </tspan><tspan x="0" y="28.8" fill="#241F20" font-family="'Avenir-Light'" font-size="12">LANGUAGE </tspan><tspan x="0" y="43.2" fill="#241F20" font-family="'Avenir-Light'" font-size="12">ARTS</tspan></text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1.3604" y1="52.2959" x2="19.7399" y2="43.8316" gradientTransform="matrix(0.7071 -0.7071 0.7352 0.7352 -21.0148 41.0596)">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M47.867,52.748H27.442V38.323L3.889,61.876c3.747,7.597,9.94,13.771,17.555,17.485L47.867,52.748z"/>
+         <g>
+             <g>
+                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M37.855,51.665V37.797c0,0-1.898-1.591-4.593-1.591
+                     c-2.693,0-4.592,1.414-4.592,1.414v14.044c0,0,1.899-1.37,4.592-1.37C35.957,50.295,37.855,51.665,37.855,51.665z M47.748,51.665
+                     V37.797c0,0-1.898-1.591-4.592-1.591c-2.694,0-4.593,1.414-4.593,1.414v14.044c0,0,1.899-1.37,4.593-1.37
+                     C45.85,50.295,47.748,51.665,47.748,51.665z M49.164,39.034h-0.709V52.46h-8.479v0.707h-3.532V52.46h-8.479V39.034h-0.708v14.133
+                     h8.479v0.707h4.991l-0.043-0.707h8.48V39.034z"/>
+             </g>
+         </g>
+     </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 84.4033 48.7236)" fill="#241F20" font-family="'Avenir-Light'" font-size="12">RELIGION</text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="11.2573" y1="69.6943" x2="36.3131" y2="56.0673">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M30.659,41.322c0.007,1.87-20.809,27.341-20.931,28.162c7.464,8.542,15.108,10.645,15.108,10.645
+             l15.109-25.515c0,0-0.898,0.148-3.875,0c0-1.827,1.502-6.219,0-9.215C35.133,43.529,31.156,42.766,30.659,41.322z"/>
+         <path fill="#FFFFFF" d="M30.893,41.177v3.858h5.412v9.215h3.875v-9.215h5.348v-3.858H40.18V35.83h-3.875v5.348H30.893z"/>
+     </g>
+</svg>

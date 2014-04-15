@@ -1,0 +1,28 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="169.902px" height="90.08px" viewBox="0 0 169.902 90.08" enable-background="new 0 0 169.902 90.08" xml:space="preserve">
+     <g>
+         <g class="letters">
+             <text transform="matrix(1 0 0 1 84.4033 34.3232)"><tspan x="0" y="0" fill="#241F20" font-family="'Avenir-Light'" font-size="12">BUSINESS/</tspan><tspan x="0" y="14.4" fill="#241F20" font-family="'Avenir-Light'" font-size="12">COMPUTER </tspan><tspan x="0" y="28.8" fill="#241F20" font-family="'Avenir-Light'" font-size="12">EDUCATION</tspan></text>
+         </g>
+         <g>
+             <polygon class="shape" fill="#ACADA3" points="4.331,90.078 12.646,78.703 21.027,67.376 37.892,44.802 54.904,22.336 63.461,11.144 72.085,0
+              63.771,11.376 55.39,22.703 38.524,45.276 21.511,67.741 12.954,78.934 	"/>
+             <circle class="shape" fill="#ACADA3" cx="38.21" cy="45.039" r="38.21"/>
+         </g>
+         <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="12.832" y1="69.998" x2="36.9016" y2="50.482">
+             <stop  offset="0" style="stop-color:#000000;stop-opacity:0"/>
+             <stop  offset="1" style="stop-color:#000000;stop-opacity:0.22"/>
+         </linearGradient>
+         <path fill="url(#SVGID_1_)" d="M29.562,38.644C29.565,40.126,6.86,64.728,6.763,65.379c5.953,9.624,16.464,13.978,16.464,13.978
+             l22.88-30.717c-0.675-1.65-14.164,0.514-15.863,0.321C29.57,43.966,30.286,46.07,29.562,38.644z"/>
+         <g>
+             <g>
+                 <path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M39.141,50.589h-1.862v0.97l-1.862,0.311v0.621h5.549v-0.582
+                     l-1.824-0.35V50.589z M45.35,37.589h-14.28c-0.687,0-1.241,0.556-1.241,1.242v8.692c0,0.685,0.555,1.241,1.241,1.241h14.28
+                     c0.687,0,1.242-0.557,1.242-1.241v-8.692C46.592,38.145,46.036,37.589,45.35,37.589z M38.132,47.833
+                     c-0.343,0-0.621-0.278-0.621-0.62c0-0.344,0.278-0.621,0.621-0.621c0.344,0,0.621,0.277,0.621,0.621
+                     C38.753,47.555,38.476,47.833,38.132,47.833z M45.35,45.661h-14.28v-6.829h14.28V45.661z"/>
+             </g>
+         </g>
+     </g>
+</svg>
