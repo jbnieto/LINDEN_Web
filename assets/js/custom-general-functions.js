@@ -19,10 +19,7 @@ $( document ).ready(function() {
         dots: true
     });
 
-    $('.btn-apply').click(function(){
-        $('#modal').modal();
-        $('#modal h4').text( $(this).attr('data-title') );
-    });
+
 
     $('#port-projects ul li a').click(function(){
 
@@ -38,7 +35,7 @@ $( document ).ready(function() {
         });
     });
 
-    $("section nav ul li a").click(function(event){
+    $("a.dest").click(function(event){
         event.preventDefault();
         $( window ).unbind('scroll', scrolling);
         $("body").animate({
@@ -112,6 +109,10 @@ $( document ).ready(function() {
     [].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
         var svgicon = new svgIcon( el, svgIconConfig );
     } );
+
+    new svgIcon( document.querySelector( '#services .si-icons-hover .si-btn_know' ),                svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 268, h : 71.477 } } );
+
+
     new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_custom_software' ),    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
     new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_assessment' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
     new svgIcon( document.querySelector( '#services .si-icons-hover .si-icon_consulting' ),         svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 98.082, h : 90.062 } } );
@@ -141,9 +142,9 @@ $( document ).ready(function() {
     new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_trade_books_for_adults' ),      svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
     new svgIcon( document.querySelector( '#port-projects .si-icons-hover .si-ps_trade_books_for_children' ),    svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 169.902, h : 90.08 } } );
 
-    new svgIcon( document.querySelector( '.si-btn_sm_fb' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
+    //new svgIcon( document.querySelector( '.si-btn_sm_fb' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
     new svgIcon( document.querySelector( '.si-btn_sm_tw' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
-    new svgIcon( document.querySelector( '.si-btn_sm_yt' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
+    //new svgIcon( document.querySelector( '.si-btn_sm_yt' ), svgIconConfig, { easing : mina.backin, evtoggle : 'mouseover', size : { w : 50.585, h : 50.585 } } );
 
 });
 

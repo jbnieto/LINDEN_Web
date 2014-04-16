@@ -1,4 +1,23 @@
 var svgIconConfig = {
+    btn_know : {
+        url : 'assets/svg/btn-know.svg',
+        animation : [
+            {
+                el : '.shape',
+                animProperties : {
+                    from : { val :'{"fill" : "#ACADA3"}' },
+                    to : { val : '{"fill" : "#F47721"}' }
+                }
+            },
+            {
+                el : '.letters',
+                animProperties : {
+                    from : { val :'{"opacity" : "0.8"}' },
+                    to : { val : '{"opacity" : "1"}' }
+                }
+            }
+        ]
+    },
     ps_art : {
         url : 'assets/svg/ps-art.svg',
         animation : [

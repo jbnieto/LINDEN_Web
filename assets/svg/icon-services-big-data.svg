@@ -3,6 +3,7 @@
 	 <g>
 	     <g class="circle">
              <circle fill="none" stroke="#FFFFFF" stroke-width="1.36" stroke-miterlimit="10" cx="45.167" cy="45.168" r="44.483"/>
+             <polygon fill="#FFFFFF" opacity="0.65" points="18.135,80.479 15.006,84.707 5.229,98.082 15.367,84.979 18.581,80.775 	"/>
          </g>
          <g class="shape" opacity="0">
              <path fill="#FFFFFF" d="M45.166,0.684C20.599,0.684,0.684,20.6,0.684,45.168c0,24.567,19.915,44.481,44.482,44.481
