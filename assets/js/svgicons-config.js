@@ -1,23 +1,4 @@
 var svgIconConfig = {
-    btn_know : {
-        url : 'assets/svg/btn-know.svg',
-        animation : [
-            {
-                el : '.shape',
-                animProperties : {
-                    from : { val :'{"fill" : "#ACADA3"}' },
-                    to : { val : '{"fill" : "#F47721"}' }
-                }
-            },
-            {
-                el : '.letters',
-                animProperties : {
-                    from : { val :'{"opacity" : "0.8"}' },
-                    to : { val : '{"opacity" : "1"}' }
-                }
-            }
-        ]
-    },
     ps_art : {
         url : 'assets/svg/ps-art.svg',
         animation : [
@@ -486,6 +467,7 @@ var svgIconConfig = {
             }
         ]
     },
+
     icon_port_custom : {
         url : 'assets/svg/icon-port-custom.svg',
         animation : [
@@ -684,7 +666,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -703,7 +685,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -722,7 +704,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -741,7 +723,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -760,7 +742,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -773,13 +755,25 @@ var svgIconConfig = {
             }
         ]
     },
+    btn_know : {
+        url : 'assets/svg/btn-know.svg',
+        animation : [
+            {
+                el : '#logo circle',
+                animProperties : {
+                    from : { val :'{"fill" : "#49B749", "stroke" : "#49B749"}' },
+                    to : { val : '{"fill" : "#00DD00", "stroke" : "#00DD00"}' }
+                }
+            }
+        ]
+    },
     btn_sm_fb : {
         url : 'assets/svg/btn-sm-fb.svg',
         animation : [
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -798,7 +792,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
@@ -817,7 +811,7 @@ var svgIconConfig = {
             {
                 el : '.shape',
                 animProperties : {
-                    from : { val :'{"opacity" : "0"}' },
+                    from : { val :'{"opacity" : "0.15"}' },
                     to : { val : '{"opacity" : "1"}' }
                 }
             },
